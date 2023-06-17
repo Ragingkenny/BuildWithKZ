@@ -41,7 +41,7 @@ body {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 125px;
     color: #000000;
 }
 
@@ -49,6 +49,7 @@ h2 {
     font-size: 2.5rem;
     font-weight: normal;
     color: #000000;
+    margin-bottom: 50px;
 }
 
 h3 {
@@ -88,11 +89,45 @@ p {
     font-size: 16px;
 }
 
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.word {
+    text-decoration: underline;
+}
+
+
+/* Services */
+
+.sHeader {
+    font-family: 'Stardos Stencil';
+    background-color: #000000;
+    color: #ffffff;
+    width: auto;
+    margin: 90px auto auto auto;
+}
+
+.service-bar {
+    margin: 100px auto 100px auto;
+}
+
+.service-div {
+    margin-bottom: 100px;
+}
+
 .servicelink {
     display: inline-block;
     color: #000000;
     text-decoration: underline;
     font-size: 20px;
+}
+
+.services-list {
+    padding: auto 100px auto 100px;
+    margin: auto 100px auto 100px;
 }
 
 .service-img {
@@ -108,17 +143,13 @@ p {
     padding-bottom: 1rem;
 }
 
-.top-container {
-    position: relative;
-    padding-top: 100px;
-    width: 100%;
+.tractor {
+    padding-left: 50px;
 }
 
-.word {
-    text-decoration: underline;
-}
+/* @media screen and (max-width: 1170px) */
 
-@media screen and (max-width: 1170px) {
+@media (min-width:769px) and (max-width:1024px) {
     .btn {
        font-size: 30px;
     }
@@ -129,6 +160,11 @@ p {
 
     .servicelink {
         font-size: 30px;
+    }
+
+    .sHeader {
+        margin: 125px auto auto auto;
+        padding-top: 6%;
     }
 
     .footer-link {
