@@ -24,34 +24,7 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top py-3 navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">KZ</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon navbar-toggler-color-green"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contactus.html">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <kz-header></kz-header>
 
     <div>
         <h1 class="sHeader">SERVICES</h1>
@@ -69,27 +42,25 @@
         <div class="service-div">
             <h2>Interior</h2>
             <p><span>Flooring:</span> tile, hardwood, laminate, flooring repair, carpet removal</p>
-            <p><span>Bathroom:</span> sink, tub, shower & toilet installation, tile shower & floor, shower doors, bathroom
+            <p><span>Bathroom:</span> sink, tub, shower & toilet installation, tile shower & floor, shower doors,
+                bathroom
                 fixtures (lights, fans, faucets, showerheads) total remodel & bathroom additions</p>
-            <p> <span>Kitchen:</span> cabinet installation, appliance removal & installation, hood vents, flooring, sink & faucet
+            <p> <span>Kitchen:</span> cabinet installation, appliance removal & installation, hood vents, flooring, sink
+                & faucet
                 installation, tile back splash, total remodel</p>
             <p><span>Ceilings:</span> shiplap, light & ceiling fan installation, painting, drop ceilings</p>
             <p><span>Miscellaneous:</span> finish basements, closets, interior doors, removal of walls, painting</p>
         </div>
 
-        <div class="container text-center">
-            <div class="row">
-                <div class="col"><img class="break" src="Images/screw.png" alt=""></div>
-                <div class="col"><img class="break" src="Images/screw.png" alt=""></div>
-                <div class="col"><img class="break" src="Images/screw.png" alt=""></div>
-            </div>
-        </div>
+        <!-- break -->
+        <kz-break></kz-break>
 
         <div class="service-div">
             <h2>Exterior</h2>
             <p><span>Decks:</span> removal of old decking, composite decking, roof over deck, new handrail</p>
             <p><span>Outside buildings:</span> sheds, garages, carports, animal enclosures</p>
-            <p><span>Miscellaneous:</span> siding, exterior painting, pressure washing, roofing (shingles & metal) outside light
+            <p><span>Miscellaneous:</span> siding, exterior painting, pressure washing, roofing (shingles & metal)
+                outside light
                 fixtures</p>
         </div>
     </div>
@@ -101,5 +72,7 @@
         <a class="footer-link" href="">Website</a>
         <p class="createdby">© 2023 Kenny Holt.</p>
     </div>
+
+    <script src="kz-tags.js"></script>
 
 </body>
