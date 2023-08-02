@@ -46,10 +46,4 @@ class kzBreak extends HTMLElement {
 }
 
 customElements.define("kz-break", kzBreak);
-<<<<<<< HEAD
 
-
-
-
-=======
->>>>>>> 63d90bb01dee78d040a6f34cfe8a78cadd552191
