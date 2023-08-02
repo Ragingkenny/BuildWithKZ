@@ -19,7 +19,6 @@ class kzHeader extends HTMLElement {
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
                             </li>
-                           
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="contactus.html">Contact Us</a>
                             </li>
@@ -47,7 +46,10 @@ class kzBreak extends HTMLElement {
 }
 
 customElements.define("kz-break", kzBreak);
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 63d90bb01dee78d040a6f34cfe8a78cadd552191

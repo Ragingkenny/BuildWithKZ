@@ -17,6 +17,7 @@ body {
 .break {
     height: 20px;
     margin: 50px auto;
+
 }
 
 .btn {
@@ -80,7 +81,7 @@ h3 {
     margin: auto;
 }
 
-.KZtag {
+HEAD .KZtag {
     font-size: 32PX;
     padding: 5% 0% 0%;
 }
@@ -209,6 +210,7 @@ span {
 
 /* Projects */
 
+
 /* @media screen and (max-width: 1170px) */
 
 @media (min-width:769px) and (max-width:1024px) {
@@ -255,11 +257,11 @@ span {
         font-size: 30px;
     }
 
-   .service-img {
-    width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
-   }
+    .service-img {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
     .sHeader {
         margin: 125px auto auto auto;
@@ -277,5 +279,3 @@ span {
     .project-img {
         height: 80%;
     }
-
-}
